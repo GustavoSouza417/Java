@@ -9,6 +9,7 @@ public class Senha {
         
         System.out.print("Senha: ");
         int senha = scanner.nextInt();
+        scanner.close();
         
         if(senha == SENHA)
             System.out.print("Senha correta");
