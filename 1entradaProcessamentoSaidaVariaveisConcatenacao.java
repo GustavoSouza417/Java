@@ -11,6 +11,9 @@ public class Soma {
         int numero1 = scanner.nextInt();
         System.out.print("A seguir, digite o segundo número: ");
         int numero2 = scanner.nextInt();
+
+        //encerra o scanner
+        scanner.close();
         
         //é uma saída formatada igual a do C
         System.out.printf("O resultado da soma é %d", numero1 + numero2);
