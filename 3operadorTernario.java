@@ -6,6 +6,7 @@ public class ParOuImpar {
         
         System.out.print("A seguir, digite um número: ");
         int numero = scanner.nextInt();
+        scanner.close();
         String resultado = (numero % 2 == 0) ? "par" : "ímpar";
         
         System.out.printf("O número digitado é %s", resultado);
