@@ -26,14 +26,14 @@ public class SomadorDeHorizontaisDeMatriz {
         
         scanner.close();
  
-        //faz a soma dos elementos de cada vertical da matriz      
+        //faz a soma dos elementos de cada horizontal da matriz      
         for(int i = 0; i < 3; i++){
             for(int j = 0; j < 3; j++){
                 somaDeHorizontais[i] += matriz[i][j];
             }
         }
         
-        //exibe o valor da soma dos elementos de cada vertical
+        //exibe o valor da soma dos elementos de cada horizontal
         System.out.println("Soma das horizontais:");
         for(int i = 0; i < 3; i++)
             System.out.printf("- %d) %d\n", i + 1, somaDeHorizontais[i]);
