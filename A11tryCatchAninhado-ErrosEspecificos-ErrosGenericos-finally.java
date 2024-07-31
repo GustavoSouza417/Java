@@ -25,7 +25,7 @@ public class EntradaDeDadosValida3 {
                 System.out.print("Ocorreu uma exceção. Por favor, tente novamente.");
                 scanner.next();
             }
-            //exceção geral
+            //exceções geral
             catch(Exception e){
                 System.out.print("\n\nCaiu em \"Generic Exception\"\n");
                 System.out.print("Ocorreu uma exceção. Por favor, tente novamente.");
