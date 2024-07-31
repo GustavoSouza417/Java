@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class EntradaDeDadosValida5 {
     public static void main(String[] args){
-        //criação de exceção
+        //lançamento de uma exceção genérica
         try{
             throw new Exception("Exceção forçada");
         }
@@ -14,7 +14,7 @@ public class EntradaDeDadosValida5 {
             System.out.printf("Ocorreu uma exceção: %s\n\n", e.getMessage());
         }
     
-        //criação de erro    
+        //lançamento de um erro genérico
         try{
             throw new Error("Erro forçado");
         }
@@ -22,7 +22,7 @@ public class EntradaDeDadosValida5 {
             System.out.printf("Ocorreu um erro: %s\n\n", e.getMessage());
         }
         
-        //utilização de uma exceção real
+        //lançamento de uma exceção específica
         try{
             throw new IOException("Erro forçado de entrada/saída");
         }
@@ -30,7 +30,7 @@ public class EntradaDeDadosValida5 {
             System.out.printf("Ocorreu uma exceção: %s\n\n", e.getMessage());
         }
 
-        //utilização de um erro real
+        //lançamento de um erro específico
         try{
             throw new OutOfMemoryError("Erro forçado de estouro de pilha");
         }
